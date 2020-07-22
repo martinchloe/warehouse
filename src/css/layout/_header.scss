@@ -5,6 +5,9 @@ header{
     width: 100%;
     position: fixed;
     z-index: 2;
+    .burger{
+        display: none;
+    }
     a{
         text-transform: uppercase;
         padding: 0 20px;
@@ -12,6 +15,12 @@ header{
         transition: .3s color ease-in; 
         &:hover{
             color: $white;
+        }
+        &:first-child{
+            padding-left: 0;
+        }
+        &:last-child{
+            padding-right: 0;
         }
     }
     h1{
@@ -25,4 +34,23 @@ header{
         justify-content: space-between;
         align-items: center;
     }
+    @media screen and (max-width: 375px){
+        .navigation{
+            display: none;
+        }
+        .burger{
+            display: block;
+            color: $white;
+        }
+    }
+
 }
+
+// @media screen and (max-width: 375px){
+//     header{
+//         background: $white;
+//         h1 a{
+//             color: $black;
+//         }
+//     }
+// }

@@ -1,0 +1,43 @@
+footer{
+    background: #333333;
+    .wrapper{
+        & > div{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            @media screen and (max-width: 375px){
+                flex-direction: column;
+            }
+            border-bottom: 1px solid #737373; 
+            div{
+                width: 30%;
+                @media screen and (max-width: 375px){
+                    width: 100%;
+                }
+                margin-bottom: 3rem;
+            }
+        }
+        h4{
+            font-size: 16px;
+            color: $white;
+            margin-bottom: 1.5rem;
+        }
+        p, a{
+            color: #737373;
+            font-size: 1rem;
+        }
+    }
+    .colorlib{
+        margin-top: 3rem;
+        text-align: center;
+    }
+    .social-medias{
+        display: flex;
+        a{
+            padding-right: 1rem;
+        }
+        a:hover{
+            color: $white;
+        }
+    }
+}

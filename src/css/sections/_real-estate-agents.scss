@@ -1,0 +1,36 @@
+.real-estate-agents{
+    h2, p{
+        margin-bottom: 3rem;
+    }
+    .all-agents{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        @media screen and (max-width: 375px){
+            flex-direction: column;
+        }
+        .agent{
+            width: 30%;
+            flex-wrap: wrap;
+            @media screen and (max-width: 375px){
+                width: 100%;
+            }
+            img{
+                width: 100%;
+                display: block;
+            }
+            div{
+                background: $green;
+                padding: 1rem;
+            }
+            h4{
+                line-height: 1.7;
+                color: inherit;
+                text-transform: inherit;
+                font-size: 1rem;
+                font-family: $roboto;
+                font-weight: 400;
+            }
+        }
+    }
+}

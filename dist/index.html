@@ -5,6 +5,7 @@
     <title>Warehouse</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e1468f8121.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link href="css/style.min.css" rel="stylesheet">
 </head>
@@ -15,12 +16,15 @@
             <h1>
                 <a href="index.html">Warehouse</a>
             </h1>
-            <div>
+            <div class="navigation">
                 <a href="#">Home</a>
                 <a href="#">Property</a>
                 <a href="#">Agents</a>
                 <a href="#">News</a>
                 <a href="#">Contact</a>
+            </div>
+            <div class="burger">
+                <p><i class="fas fa-bars"></i></p>
             </div>
         </nav>
     </header>
@@ -28,10 +32,7 @@
         <section class="hero">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div>
-                            <img src="img/hero_1.jpg" alt="Hero">
-                        </div>
+                    <div class="swiper-slide" style="background: url('img/hero_1.jpg') no-repeat center/cover">
                         <div class="hero-content">
                             <h2 class="text-shadow white-text">Buy and sell property here</h2>
                             <p class="text-shadow white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -41,10 +42,7 @@
                             <a href="#" class="button green-button">Get Started</a>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div>
-                            <img src="img/hero_2.jpg" alt="Hero">
-                        </div>
+                    <div class="swiper-slide" style="background: url('img/hero_2.jpg') no-repeat center/cover">
                         <div class="hero-content">
                             <h2 class="text-shadow white-text">Buy and sell property here</h2>
                             <p class="text-shadow white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -68,12 +66,187 @@
                         <p class="location">New York - USA</p>
                         <p class="price">$200,000,000</p>
                     </div>
-
+                </div>
+                <div class="house">
+                    <img src="img/property_1.jpg" alt="Petit appart cosy">
+                    <div>
+                        <h3>Un petit appart cosy</h3>
+                        <p class="location">New York - USA</p>
+                        <p class="price">$200,000,000</p>
+                    </div>
+                </div>
+                <div class="house">
+                    <img src="img/property_1.jpg" alt="Petit appart cosy">
+                    <div>
+                        <h3>Un petit appart cosy</h3>
+                        <p class="location">New York - USA</p>
+                        <p class="price">$200,000,000</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="real-estate-agents wrapper section-padding">
+            <h2 class="green-text">Real estate agents</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus minima neque tempora reiciendis.</p>
+            <div class="all-agents">
+                <div class="agent">
+                    <img src="img/person_1.jpg" alt="">
+                    <div>
+                        <h3>Ed Sheeran</h3>
+                        <h4>Head Director</h4>
+                    </div>
+                </div>
+                <div class="agent">
+                    <img src="img/person_2.jpg" alt="">
+                    <div>
+                        <h3>Ed Sheeran</h3>
+                        <h4>Head Director</h4>
+                    </div>
+                </div>
+                <div class="agent">
+                    <img src="img/person_3.jpg" alt="">
+                    <div>
+                        <h3>Ed Sheeran</h3>
+                        <h4>Head Director</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="how-it-works section-padding">
+            <div class="wrapper">
+                <h2>How it works</h2>
+                <div class="all-explanations">
+                    <div class="explanation">
+                        <div>
+                            <p>01.</p>
+                            <p><i class="fas fa-house-user"></i></p>
+                        </div>
+                        <h4>Find Property</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="explanation">
+                        <div>
+                            <p>01.</p>
+                            <p><i class="fas fa-house-user"></i></p>
+                        </div>
+                        <h4>Find Property</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="explanation">
+                        <div>
+                            <p>01.</p>
+                            <p><i class="fas fa-house-user"></i></p>
+                        </div>
+                        <h4>Find Property</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="news-and-events wrapper section-padding">
+            <h2 class="green-text">News & Events</h2>
+            <div class="all-articles">
+                <div class="article">
+                    <img src="img/img_1.jpg" alt="">
+                    <h4>New title</h4>
+                    <div class="infos-article">
+                        <p>Allison Holmes</p>
+                        <p>Jan 18, 2019</p>
+                        <p><span>Outstanding properties</span></p>
+                    </div>
+                </div>
+                <div class="article">
+                    <img src="img/img_1.jpg" alt="">
+                    <h4>New title</h4>
+                    <div class="infos-article">
+                        <p>Allison Holmes</p>
+                        <p>Jan 18, 2019</p>
+                        <p><span>Outstanding properties</span></p>
+                    </div>
+                </div>
+                <div class="article">
+                    <img src="img/img_1.jpg" alt="">
+                    <h4>New title</h4>
+                    <div class="infos-article">
+                        <p>Allison Holmes</p>
+                        <p>Jan 18, 2019</p>
+                        <p><span>Outstanding properties</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-us section-padding">
+            <div class="wrapper">
+                <h2 class="green-text">Contact us</h2>
+                <div class="form-and-address">
+                    <div class="form">
+                        <h4>Get in touch</h4>
+                        <form action="">
+                            <div>
+                                <fieldset>
+                                    <label for="first-name">First Name</label>
+                                    <input type="text">
+                                </fieldset>
+                                <fieldset>
+                                    <label for="last-name">Last Name</label>
+                                    <input type="text">
+                                </fieldset>
+                            </div>
+                            <fieldset>
+                                <label for="email">Email</label>
+                                <input type="text">
+                            </fieldset>
+                            <fieldset>
+                                <label for="subject">Subject</label>
+                                <input type="text">
+                            </fieldset>
+                            <fieldset>
+                                <label for="message">Message</label>
+                                <textarea name="" id="" cols="30" rows="10"
+                                    placeholder="Write your notes or questions here"></textarea>
+                            </fieldset>
+                            <input class="button green-button" type="submit" value="Send Message">
+                        </form>
+                    </div>
+                    <div class="address">
+                        <div>
+                            <p><span>Address</span></p>
+                            <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
+                        </div>
+                        <div>
+                            <p><span>Phone</span></p>
+                            <p class="green-text">+1 232 3235 324</p>
+                        </div>
+                        <div>
+                            <p><span>Email Address</span></p>
+                            <p class="green-text">youremail@domain.com</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer class="section-padding">
+        <div class="wrapper">
+            <div>
+                <div>
+                    <h4>About Us</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam
+                        voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+                </div>
+                <div>
+                    <h4>Follow Us</h4>
+                    <div class="social-medias">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <p class="colorlib">Copyright © 2020 All rights reserved | This template is made with by Colorlib</p>
+        </div>
+    </footer>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/main.min.js"></script>
 </body>

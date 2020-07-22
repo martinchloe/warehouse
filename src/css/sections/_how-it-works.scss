@@ -1,0 +1,42 @@
+.how-it-works{
+    background: $green;
+    h2{
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .all-explanations{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        @media screen and (max-width: 375px){
+            flex-direction: column;
+        }
+        .explanation{
+            flex-basis: 30%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            & > div {
+                display: flex;
+                align-items: flex-end;
+                p:first-child{
+                    font-size: 1rem;
+                }
+                p:last-child{
+                    font-size: 2rem;
+                    margin-left: 1rem;
+                }
+                margin-bottom: 1rem;
+            }
+            & > p:last-child{
+                font-size: 1rem;
+                line-height: 1.7;
+                text-align: center;
+            }
+            @media screen and (max-width: 375px){
+                margin-bottom: 1rem;
+            }
+        }
+
+    }
+}
