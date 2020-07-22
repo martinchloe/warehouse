@@ -1,0 +1,32 @@
+.swiper-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.swiper-slide{
+    & > div:first-child{
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+.swiper-pagination{
+    bottom: 100px!important;
+}
+
+.swiper-pagination-bullet, .swiper-pagination-bullet-active{
+    font-size: 1rem;
+    margin: 12px;
+}
+
+.swiper-pagination-bullet{
+    border: 2px solid $white;
+    opacity: 1;
+    background: transparent;
+}
+
+.swiper-pagination-bullet-active{
+    background: $green;
+    border: none;
+    border: 2px solid $green;
+}
