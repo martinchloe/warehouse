@@ -20,7 +20,7 @@ function displayMenu(){
 }
 
 function closeMenu(){
-  toggleMenu.style.left = '90vw';
+  toggleMenu.style.left = '100vw';
 }
 
 burger.addEventListener('click', displayMenu);

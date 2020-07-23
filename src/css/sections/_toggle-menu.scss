@@ -1,12 +1,12 @@
 .toggle-menu{
     background: $white;
     position: absolute;
+    z-index: 5;
     height: 100vh;
     overflow: hidden;
     top: 0;
     right: 0;
     left: 100vw;
-    z-index: 2;
     padding: 20px;
     color: $grey;
     a{
