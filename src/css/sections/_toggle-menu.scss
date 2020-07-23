@@ -1,10 +1,11 @@
 .toggle-menu{
     background: $white;
     position: absolute;
-    width: 70vw;
     height: 100vh;
+    overflow: hidden;
     top: 0;
-    right: 100%;
+    right: 0;
+    left: 100vw;
     z-index: 2;
     padding: 20px;
     color: $grey;
@@ -15,7 +16,7 @@
         color: $grey;
         line-height: 1.7;
     }
-    transition: 1s right ease-in;
+    transition: 1s all ease-in-out;
 }
 
 .close-button{

@@ -14,14 +14,14 @@
     <header>
         <nav class="wrapper">
             <h1>
-                <a href="index.html">Warehouse</a>
+                <a href="#home">Warehouse</a>
             </h1>
             <div class="navigation">
-                <a href="index.html" class="active">Home</a>
-                <a href="properties.html">Properties</a>
-                <a href="#">Agents</a>
-                <a href="news.html">News</a>
-                <a href="#">Contact</a>
+                <a href="#home" class="active">Home</a>
+                <a href="#outstanding-houses">Properties</a>
+                <a href="#real-estate-agents">Agents</a>
+                <a href="#how-it-works">News</a>
+                <a href="#contact-us">Contact</a>
             </div>
             <div class="burger">
                 <p><i class="fas fa-bars"></i></p>
@@ -32,17 +32,18 @@
         <section class="toggle-menu">
             <p class="close-button"><i class="fas fa-times"></i></p>
             <nav class="navigation">
-                <a href="index.html" class="active">Home</a>
-                <a href="properties.html">Properties</a>
+                <a href="#" class="active">Home</a>
+                <a href="#">Properties</a>
                 <a href="#">Agents</a>
-                <a href="news.html">News</a>
+                <a href="#">News</a>
                 <a href="#">Contact</a>
             </nav>
         </section>
-        <section class="hero">
+        <section id="home" class="hero">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide" style="background: url('img/hero_1.jpg') no-repeat center/cover">
+                    <div class="swiper-slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+                    url(img/hero_1.jpg); background-position:center; background-size: cover;">
                         <div>
                             <h2 class="text-shadow white-text">Buy and sell property here</h2>
                             <p class="text-shadow white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -52,7 +53,8 @@
                             <a href="#" class="button green-button">Get Started</a>
                         </div>
                     </div>
-                    <div class="swiper-slide" style="background: url('img/hero_2.jpg') no-repeat center/cover">
+                    <div class="swiper-slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+                    url(img/hero_1.jpg); background-position:center; background-size: cover;">
                         <div class="hero-content">
                             <h2 class="text-shadow white-text">Buy and sell property here</h2>
                             <p class="text-shadow white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -66,36 +68,42 @@
                 <div class="swiper-pagination"></div>
             </div>
         </section>
-        <section class="outstanding-houses wrapper section-padding">
+        <section id="outstanding-houses" class="outstanding-houses wrapper section-padding">
             <h2 class="green-text">Our Outstanding Houses</h2>
             <div class="all-houses">
                 <div class="house">
-                    <a href="#"><img src="img/property_1.jpg" alt="Petit appart cosy"></a>
-                    <div>
-                        <h3>Un petit appart cosy</h3>
-                        <p class="location">New York - USA</p>
-                        <p class="price">$200,000,000</p>
+                    <a href="properties.html"><img src="img/property_1.jpg" alt="Petit appart cosy"></a>
+                    <div class="house-details">
+                        <div>
+                            <h3>Un petit appart cosy</h3>
+                            <p class="location">New York - USA</p>
+                            <p class="price">$200,000,000</p>
+                        </div>
                     </div>
                 </div>
                 <div class="house">
-                    <a href="#"><img src="img/property_1.jpg" alt="Petit appart cosy"></a>
-                    <div>
-                        <h3>Un petit appart cosy</h3>
-                        <p class="location">New York - USA</p>
-                        <p class="price">$200,000,000</p>
+                    <a href="properties.html"><img src="img/property_1.jpg" alt="Petit appart cosy"></a>
+                    <div class="house-details">
+                        <div>
+                            <h3>Un petit appart cosy</h3>
+                            <p class="location">New York - USA</p>
+                            <p class="price">$200,000,000</p>
+                        </div>
                     </div>
                 </div>
                 <div class="house">
-                    <a href="#"><img src="img/property_1.jpg" alt="Petit appart cosy"></a>
-                    <div>
-                        <h3>Un petit appart cosy</h3>
-                        <p class="location">New York - USA</p>
-                        <p class="price">$200,000,000</p>
+                    <a href="properties.html"><img src="img/property_1.jpg" alt="Petit appart cosy"></a>
+                    <div class="house-details">
+                        <div>
+                            <h3>Un petit appart cosy</h3>
+                            <p class="location">New York - USA</p>
+                            <p class="price">$200,000,000</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="real-estate-agents wrapper section-padding">
+        <section id="real-estate-agents" class="real-estate-agents wrapper section-padding">
             <h2 class="green-text">Real estate agents</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus minima neque tempora reiciendis.</p>
             <div class="all-agents">
@@ -122,7 +130,7 @@
                 </div>
             </div>
         </section>
-        <section class="how-it-works section-padding">
+        <section id="how-it-works" class="how-it-works section-padding">
             <div class="wrapper">
                 <h2>How it works</h2>
                 <div class="all-explanations">
@@ -157,7 +165,7 @@
             <h2 class="green-text">News & Events</h2>
             <div class="all-articles">
                 <div class="article">
-                    <img src="img/img_1.jpg" alt="">
+                    <a href="news.html"><img src="img/img_1.jpg" alt=""></a>
                     <h4>New title</h4>
                     <div class="infos-article">
                         <p>Allison Holmes</p>
@@ -166,7 +174,7 @@
                     </div>
                 </div>
                 <div class="article">
-                    <img src="img/img_1.jpg" alt="">
+                    <a href="news.html"><img src="img/img_1.jpg" alt=""></a>
                     <h4>New title</h4>
                     <div class="infos-article">
                         <p>Allison Holmes</p>
@@ -175,7 +183,7 @@
                     </div>
                 </div>
                 <div class="article">
-                    <img src="img/img_1.jpg" alt="">
+                    <a href="news.html"><img src="img/img_1.jpg" alt=""></a>
                     <h4>New title</h4>
                     <div class="infos-article">
                         <p>Allison Holmes</p>
@@ -185,7 +193,7 @@
                 </div>
             </div>
         </section>
-        <section class="contact-us section-padding">
+        <section id="contact-us" class="contact-us section-padding">
             <div class="wrapper">
                 <h2 class="green-text">Contact us</h2>
                 <div class="form-and-address">
@@ -234,6 +242,9 @@
                     </div>
                 </div>
             </div>
+        </section>
+        <section class="go-up">
+            <a href="#home"><i class="far fa-arrow-alt-circle-up"></i></a>
         </section>
     </main>
     <footer class="section-padding">

@@ -20,7 +20,7 @@
                 <a href="index.html">Home</a>
                 <a href="properties.html">Property</a>
                 <a href="#">Agents</a>
-                <a href="news.html">News</a>
+                <a href="news.html" class="active">News</a>
                 <a href="#">Contact</a>
             </div>
             <div class="burger">
@@ -29,7 +29,18 @@
         </nav>
     </header>
     <main>
-        <section class="hero2 hero3" style="background:url(img/hero_1.jpg) no-repeat center/cover">
+        <section class="toggle-menu">
+            <p class="close-button"><i class="fas fa-times"></i></p>
+            <nav class="navigation">
+                <a href="index.html">Home</a>
+                <a href="properties.html">Properties</a>
+                <a href="#">Agents</a>
+                <a href="news.html" class="active">News</a>
+                <a href="#">Contact</a>
+            </nav>
+        </section>
+        <section id="home" class="hero2 hero3" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+        url(img/hero_1.jpg); background-position:center; background-size: cover;">
             <div>
                 <h2 class="text-shadow white-text">Single blog post</h2>
                 <p class="text-shadow white-text">May 29, 2019 • Posted by <a href="#">John Doe</a> in <a
@@ -109,6 +120,9 @@
                     <p>We'll be happy to help you and get a lot of money by selling your house.</p>
                 </div>
             </div>
+        </section>
+        <section class="go-up">
+            <a href="#home"><i class="far fa-arrow-alt-circle-up"></i></a>
         </section>
     </main>
     <footer class="section-padding">

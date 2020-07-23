@@ -1,5 +1,8 @@
 .hero3{
+    align-items: center;
     height: 100vh;
+    position: relative;
+    z-index: 2;
     div{
         p:last-child{
             margin-top: 0;

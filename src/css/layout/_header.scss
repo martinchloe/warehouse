@@ -2,16 +2,17 @@ header{
     font-family: $oswald;
     padding: 1.5rem 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    width: 100%;
+    width: 100vw;
     position: fixed;
-    z-index: 2;
+    z-index: 3;
+    transition: .3s all ease-in-out;
     .burger{
         display: none;
     }
     a{
         text-transform: uppercase;
         padding: 0 20px;
-        color: $grey;
+        color: rgba(255, 255, 255, 0.5);
         transition: .3s color ease-in; 
         &:hover{
             color: $white;
@@ -45,12 +46,3 @@ header{
     }
 
 }
-
-// @media screen and (max-width: 375px){
-//     header{
-//         background: $white;
-//         h1 a{
-//             color: $black;
-//         }
-//     }
-// }

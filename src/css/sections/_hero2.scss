@@ -2,17 +2,18 @@
     height: 55vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     text-align: center;
     font-weight: 400;
+    padding-bottom: 3rem;
     div{
         max-width: 40%;
         @media screen and (max-width: 375px){
             max-width: 100%;
         }
         margin: 0 auto;
-        p:last-child{
-            margin-top: 3rem;
+        p{
+            margin-bottom: 3rem;
         }
     }
 }
