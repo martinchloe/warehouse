@@ -1,0 +1,23 @@
+.toggle-menu{
+    background: $white;
+    position: absolute;
+    width: 70vw;
+    height: 100vh;
+    top: 0;
+    right: 100%;
+    z-index: 2;
+    padding: 20px;
+    color: $grey;
+    a{
+        padding: 10px 20px;
+        display: block;
+        font-size: 20px;
+        color: $grey;
+        line-height: 1.7;
+    }
+    transition: 1s right ease-in;
+}
+
+.close-button{
+    text-align: right;
+}
