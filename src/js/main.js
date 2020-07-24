@@ -12,10 +12,9 @@ const links = header.querySelectorAll('a');
 const burger = document.querySelector('.burger');
 const toggleMenu = document.querySelector('.toggle-menu');
 const closeButton = document.querySelector('.close-button');
-console.log(links)
 
 function displayMenu(){
-  toggleMenu.style.left = '10vh';
+  toggleMenu.style.left = '10vw';
   toggleMenu.style.right = '0';
 }
 
@@ -33,6 +32,7 @@ window.addEventListener('scroll', function(){
     header.style.padding = "1rem 0";
     header.style.boxShadow = "4px 0 20px -5px rgba(0, 0, 0, 0.2)";
     links.forEach(link => link.style.color = "#000");
+
   } 
   if(window.scrollY == 0){
     header.style.background = "transparent";
