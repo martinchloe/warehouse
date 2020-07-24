@@ -17,8 +17,10 @@
         line-height: 1.7;
     }
     transition: 1s all ease-in-out;
-}
-
-.close-button{
-    text-align: right;
+    .close-button{
+        text-align: right;
+    }
+    @media screen and (min-width: 450px){
+        display: none;
+    }
 }
