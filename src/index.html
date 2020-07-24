@@ -29,7 +29,7 @@
         </nav>
     </header>
     <main>
-        <section class="toggle-menu">
+        <div class="toggle-menu">
             <p class="close-button"><i class="fas fa-times"></i></p>
             <nav class="navigation">
                 <a href="index.html" class="active">Home</a>
@@ -38,7 +38,7 @@
                 <a href="news.html">News</a>
                 <a href="#">Contact</a>
             </nav>
-        </section>
+        </div>
         <section id="home" class="hero">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
@@ -72,7 +72,7 @@
             <h2 class="green-text">Our Outstanding Houses</h2>
             <div class="all-houses">
                 <div class="house">
-                    <a href="properties.html"><img src="img/property_1.jpg" alt="Petit appart cosy"></a>
+                    <a href="properties.html"><img src="img/property_1.jpg" alt="Nom propriété"></a>
                     <div class="house-details">
                         <div>
                             <h3>Un petit appart cosy</h3>
@@ -82,7 +82,7 @@
                     </div>
                 </div>
                 <div class="house">
-                    <a href="properties.html"><img src="img/property_1.jpg" alt="Petit appart cosy"></a>
+                    <a href="properties.html"><img src="img/property_1.jpg" alt="Nom propriété"></a>
                     <div class="house-details">
                         <div>
                             <h3>Un petit appart cosy</h3>
@@ -92,7 +92,7 @@
                     </div>
                 </div>
                 <div class="house">
-                    <a href="properties.html"><img src="img/property_1.jpg" alt="Petit appart cosy"></a>
+                    <a href="properties.html"><img src="img/property_1.jpg" alt="Nom propriété"></a>
                     <div class="house-details">
                         <div>
                             <h3>Un petit appart cosy</h3>
@@ -108,21 +108,21 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus minima neque tempora reiciendis.</p>
             <div class="all-agents">
                 <div class="agent">
-                    <a href=""><img src="img/person_1.jpg" alt=""></a>
+                    <a href=""><img src="img/person_1.jpg" alt="Nom Agent"></a>
                     <div>
                         <h3>Ed Sheeran</h3>
                         <h4>Head Director</h4>
                     </div>
                 </div>
                 <div class="agent">
-                    <a href=""><img src="img/person_2.jpg" alt=""></a>
+                    <a href=""><img src="img/person_2.jpg" alt="Nom Agent"></a>
                     <div>
                         <h3>Ed Sheeran</h3>
                         <h4>Head Director</h4>
                     </div>
                 </div>
                 <div class="agent">
-                    <a href=""><img src="img/person_3.jpg" alt=""></a>
+                    <a href=""><img src="img/person_3.jpg" alt="Nom Agent"></a>
                     <div>
                         <h3>Ed Sheeran</h3>
                         <h4>Head Director</h4>
@@ -137,7 +137,7 @@
                     <div class="explanation">
                         <div>
                             <p>01.</p>
-                            <p><i class="fas fa-house-user"></i></p>
+                            <p><i class="fas fa-laptop-house"></i></p>
                         </div>
                         <h4>Find Property</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -145,7 +145,7 @@
                     <div class="explanation">
                         <div>
                             <p>02.</p>
-                            <p><i class="fas fa-house-user"></i></p>
+                            <p><i class="fas fa-dollar-sign"></i></p>
                         </div>
                         <h4>Buy Property.</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -165,7 +165,7 @@
             <h2 class="green-text">News & Events</h2>
             <div class="all-articles">
                 <div class="article">
-                    <a href="news.html"><img src="img/img_1.jpg" alt=""></a>
+                    <a href="news.html"><img src="img/img_1.jpg" alt="Nom Auteur"></a>
                     <h4>New title</h4>
                     <div class="infos-article">
                         <p>Allison Holmes</p>
@@ -174,7 +174,7 @@
                     </div>
                 </div>
                 <div class="article">
-                    <a href="news.html"><img src="img/img_1.jpg" alt=""></a>
+                    <a href="news.html"><img src="img/img_1.jpg" alt="Nom Auteur"></a>
                     <h4>New title</h4>
                     <div class="infos-article">
                         <p>Allison Holmes</p>
@@ -183,7 +183,7 @@
                     </div>
                 </div>
                 <div class="article">
-                    <a href="news.html"><img src="img/img_1.jpg" alt=""></a>
+                    <a href="news.html"><img src="img/img_1.jpg" alt="Nom Auteur"></a>
                     <h4>New title</h4>
                     <div class="infos-article">
                         <p>Allison Holmes</p>
@@ -199,28 +199,28 @@
                 <div class="form-and-address">
                     <div class="form">
                         <h4>Get in touch</h4>
-                        <form action="">
+                        <form action="post">
                             <div>
                                 <fieldset>
                                     <label for="first-name">First Name</label>
-                                    <input type="text">
+                                    <input type="text" id="first-name">
                                 </fieldset>
                                 <fieldset>
                                     <label for="last-name">Last Name</label>
-                                    <input type="text">
+                                    <input type="text" id="last-name">
                                 </fieldset>
                             </div>
                             <fieldset>
                                 <label for="email">Email</label>
-                                <input type="text">
+                                <input type="text" id="email">
                             </fieldset>
                             <fieldset>
                                 <label for="subject">Subject</label>
-                                <input type="text">
+                                <input type="text" id="subject">
                             </fieldset>
                             <fieldset>
                                 <label for="message">Message</label>
-                                <textarea name="" id="" cols="30" rows="10"
+                                <textarea name="message" id="message" cols="30" rows="10"
                                     placeholder="Write your notes or questions here"></textarea>
                             </fieldset>
                             <input class="button green-button" type="submit" value="Send Message">
@@ -243,9 +243,9 @@
                 </div>
             </div>
         </section>
-        <section class="go-up">
+        <div class="go-up">
             <a href="#home"><i class="far fa-arrow-alt-circle-up"></i></a>
-        </section>
+        </div>
     </main>
     <footer class="section-padding">
         <div class="wrapper">
@@ -258,10 +258,10 @@
                 <div>
                     <h4>Follow Us</h4>
                     <div class="social-medias">
-                        <a href=""><i class="fab fa-facebook-f"></i></a>
-                        <a href=""><i class="fab fa-twitter"></i></a>
-                        <a href=""><i class="fab fa-instagram"></i></a>
-                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
             </div>
